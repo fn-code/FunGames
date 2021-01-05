@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  Fun Games
+
+  Created by Ludin Nento on 01/01/21.
+  
+*/
+
+"genres_title" = "Genres";
+"view_all_title" = "View All";
+"favorite_title" = "Favorite Games";
+"popular_title" = "Popular Games";
+"list_genre_title" = "List Genre";
+"popular_search" = "Seacrhing Games";
+"popular_subtitle" = "20 Of Most Popular Games";
+"favorite_btn_title" = "Favorite";
+"game_detail_title" = "Information Detail";
+"profile_title" = "Profile";
+"update_profile_title" = "Update Profile";
+"update_profile_btn" = "Changed";
+"home_tab_bottom" = "Home";
+"popular_tab_bottom" = "Popular";
+"favorite_tab_bottom" = "Favorite";
+"profile_tab_bottom" = "Profile";
+"alert_error_fetching_title" = "Information";
+"alert_error_fetching_message" = "Failed fetching games data";
+"alert_success_title" = "Successful";
+"alert_already_favorite" = "Game already added to favorite";
+"alert_success_added_favorite" = "Success adding Game to favorite";
+"alert_information_title" = "Information";
+"alert_favorite_empty_message" = "No games have been added to the favorite list yet";
+"alert_favorite_remove_message" = "You want to remove this game from the favorite games list";
+"alert_back_btn" = "Back";

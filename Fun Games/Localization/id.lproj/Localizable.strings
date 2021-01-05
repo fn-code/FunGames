@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  Fun Games
+
+  Created by Ludin Nento on 01/01/21.
+  
+*/
+
+"genres_title" = "Kategori";
+"view_all_title" = "Lihat Semua";
+"favorite_title" = "Permainan Favorit";
+"popular_title" = "Permainan Popular";
+"list_genre_title" = "Daftar Aliran";
+"popular_search" = "Pencarian Permainan";
+"popular_subtitle" = "20 Permainan Terpopuler";
+"favorite_btn_title" = "Favorit";
+"game_detail_title" = "Informasi Detail";
+"profile_title" = "Profil";
+"update_profile_title" = "Mengubah Profil";
+"update_profile_btn" = "Perbaharui";
+"home_tab_bottom" = "Beranda";
+"popular_tab_bottom" = "Popular";
+"favorite_tab_bottom" = "Favorit";
+"profile_tab_bottom" = "Profil";
+"alert_error_fetching_title" = "Informasi";
+"alert_error_fetching_message" = "Gagal menampilkan data permainan";
+"alert_success_title" = "Sukses";
+"alert_already_favorite" = "Permainan sudah ditambahkan di daftar favorit";
+"alert_success_added_favorite" = "Sukses menambahkan permainan Ke daftar favorit";
+"alert_information_title" = "Informasi";
+"alert_favorite_empty_message" = "Belum ada game yang ditambahkan ke daftar favorit";
+"alert_favorite_remove_message" = "Anda ingin meghapus game ini dari daftar favorit";
+"alert_back_btn" = "Kembali";

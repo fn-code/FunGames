@@ -1,0 +1,70 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "eaf6e622dd41b07b251d8f01752eab31bc811493",
+          "version": "5.4.1"
+        }
+      },
+      {
+        "package": "Common",
+        "repositoryURL": "https://github.com/fn-code/FunGamesCommon",
+        "state": {
+          "branch": null,
+          "revision": "caaef11bf6b546de006492ab7fda0bfd2b592027",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "FunGamesCore",
+        "repositoryURL": "https://github.com/fn-code/FunGamesCore.git",
+        "state": {
+          "branch": null,
+          "revision": "1f21e6fad09a72eabd88d84fb50977a03a10e55a",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "Game",
+        "repositoryURL": "https://github.com/fn-code/FunGamesGame",
+        "state": {
+          "branch": null,
+          "revision": "90cff160428323efdd238da08b13dd8a0cf6935c",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "002d325b0bdee94e7882e1114af5ff4fe1e96afa",
+          "version": "5.1.1"
+        }
+      },
+      {
+        "package": "SDWebImage",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImage",
+        "state": {
+          "branch": null,
+          "revision": "564d238f8814c4a82502336fd80b28a9d321ff47",
+          "version": "5.10.2"
+        }
+      },
+      {
+        "package": "SDWebImageSwiftUI",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImageSwiftUI",
+        "state": {
+          "branch": null,
+          "revision": "4c7f169e39bc35d6b80d42b8eb8301bee9cd0907",
+          "version": "1.5.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
