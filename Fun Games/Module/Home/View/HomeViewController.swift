@@ -8,7 +8,6 @@
 import UIKit
 import SDWebImage
 import FunGamesCore
-import Genre
 import Game
 import RxSwift
 

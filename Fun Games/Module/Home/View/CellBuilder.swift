@@ -6,26 +6,11 @@
 //
 
 import UIKit
-import Genre
 import Game
 import SDWebImage
 import Common
 
 public class CellBuilder {
-  public static func getHomeGenreCell(collectionView: UICollectionView, indexPath: IndexPath, genre: GenreDomainModel) -> UICollectionViewCell {
-    if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "genre-cell", for: indexPath) as? HomeGenreCollectionViewCell {
-      
-      if !genre.imageBackground.isEmpty {
-        cell.genreImage.sd_setImage(with: URL(string: genre.imageBackground), completed: nil)
-      } else {
-        cell.genreImage.image = UIImage(named: "no_photo")
-      }
-      cell.titleLabel.text = genre.name
-      return cell
-    } else {
-      return UICollectionViewCell()
-    }
-  }
   
   public static func getHomeFavoriteCell(collectionView: UICollectionView, indexPath: IndexPath, favorite: FavoriteDomainModel) -> UICollectionViewCell {
     if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "favorite-cell", for: indexPath) as? HomeFavoriteCollectionViewCell {

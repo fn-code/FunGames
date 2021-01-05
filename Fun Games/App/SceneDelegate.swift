@@ -8,7 +8,6 @@
 import UIKit
 import Common
 import FunGamesCore
-import Genre
 import Game
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

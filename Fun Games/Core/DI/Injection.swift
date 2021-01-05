@@ -8,7 +8,6 @@
 import Foundation
 import CoreData
 import FunGamesCore
-import Genre
 import Game
 import UIKit
 

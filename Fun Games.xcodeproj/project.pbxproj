@@ -26,8 +26,8 @@
 		F069A42225A426E8007DF8DE /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F069A42125A426E8007DF8DE /* ProfileModel.swift */; };
 		F0723E61256D14EA00DA41EC /* GamesTableViewFavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0723E60256D14EA00DA41EC /* GamesTableViewFavoriteCell.swift */; };
 		F091490D25683A930011239D /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = F091490C25683A930011239D /* .swiftlint.yml */; };
-		F0AD9E7D25A44BF8007D816D /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = F0AD9E7C25A44BF8007D816D /* Game */; };
 		F0AD9E8325A44C3D007D816D /* Common in Frameworks */ = {isa = PBXBuildFile; productRef = F0AD9E8225A44C3D007D816D /* Common */; };
+		F0AD9E8C25A454DD007D816D /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = F0AD9E8B25A454DD007D816D /* Game */; };
 		F0B7624925682B1800FB423D /* GamePlatformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B7624825682B1800FB423D /* GamePlatformView.swift */; };
 		F0B7625125682D4C00FB423D /* ProfileImageDescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B7625025682D4C00FB423D /* ProfileImageDescView.swift */; };
 		F0B7625625682DA400FB423D /* ProfileSocialMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B7625525682DA400FB423D /* ProfileSocialMediaView.swift */; };
@@ -120,9 +120,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0AD9E7D25A44BF8007D816D /* Game in Frameworks */,
 				F052C15A259F55DB007F6AC1 /* SDWebImageSwiftUI in Frameworks */,
 				F052C154259F5534007F6AC1 /* SDWebImage in Frameworks */,
+				F0AD9E8C25A454DD007D816D /* Game in Frameworks */,
 				F0AD9E8325A44C3D007D816D /* Common in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,8 +493,8 @@
 			packageProductDependencies = (
 				F052C153259F5534007F6AC1 /* SDWebImage */,
 				F052C159259F55DB007F6AC1 /* SDWebImageSwiftUI */,
-				F0AD9E7C25A44BF8007D816D /* Game */,
 				F0AD9E8225A44C3D007D816D /* Common */,
+				F0AD9E8B25A454DD007D816D /* Game */,
 			);
 			productName = "Fun Games";
 			productReference = F0064537255EC9C400FB645D /* Fun Games.app */;
@@ -571,8 +571,8 @@
 			packageReferences = (
 				F052C152259F5534007F6AC1 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 				F052C158259F55DB007F6AC1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
-				F0AD9E7B25A44BF8007D816D /* XCRemoteSwiftPackageReference "FunGamesGame" */,
 				F0AD9E8125A44C3D007D816D /* XCRemoteSwiftPackageReference "FunGamesCommon" */,
+				F0AD9E8A25A454DD007D816D /* XCRemoteSwiftPackageReference "FunGamesGame" */,
 			);
 			productRefGroup = F0064538255EC9C400FB645D /* Products */;
 			projectDirPath = "";
@@ -1018,20 +1018,20 @@
 				minimumVersion = 1.5.0;
 			};
 		};
-		F0AD9E7B25A44BF8007D816D /* XCRemoteSwiftPackageReference "FunGamesGame" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/fn-code/FunGamesGame";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
 		F0AD9E8125A44C3D007D816D /* XCRemoteSwiftPackageReference "FunGamesCommon" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/fn-code/FunGamesCommon";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.0.0;
+			};
+		};
+		F0AD9E8A25A454DD007D816D /* XCRemoteSwiftPackageReference "FunGamesGame" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fn-code/FunGamesGame";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -1047,15 +1047,15 @@
 			package = F052C158259F55DB007F6AC1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
 		};
-		F0AD9E7C25A44BF8007D816D /* Game */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F0AD9E7B25A44BF8007D816D /* XCRemoteSwiftPackageReference "FunGamesGame" */;
-			productName = Game;
-		};
 		F0AD9E8225A44C3D007D816D /* Common */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F0AD9E8125A44C3D007D816D /* XCRemoteSwiftPackageReference "FunGamesCommon" */;
 			productName = Common;
+		};
+		F0AD9E8B25A454DD007D816D /* Game */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F0AD9E8A25A454DD007D816D /* XCRemoteSwiftPackageReference "FunGamesGame" */;
+			productName = Game;
 		};
 /* End XCSwiftPackageProductDependency section */
 
