@@ -1,6 +1,6 @@
-
 language: swift
-osx_image: xcode12 
-xcode_project: TriangleApp.xcodeproj 
-xcode_scheme: TriangleApp
-xcode_destination: platform=iOS Simulator,OS=14.0,name=iPhone 11 Pro
+osx_image: xcode12.2
+xcode_project: Fun Games.xcodeproj 
+xcode_scheme: Fun Games
+xcode_destination: platform=iOS Simulator,OS=14.2,name=iPhone 11 Pro
+
